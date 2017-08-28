@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="191.12 227 138.88 116.538">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.05;
+      }
+
+      .cls-2 {
+        fill: #af8751;
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_11" data-name="Group 11" class="cls-1" transform="translate(0 -382.227)">
+    <g id="Group_5" data-name="Group 5" transform="translate(-180.359 1195.839) rotate(-120)">
+      <path id="Path_1" data-name="Path 1" class="cls-2" d="M-2.542.5H69.907V30.686H-2.542s-3-8.812-3-16.358A35.775,35.775,0,0,1-2.542.5Z" transform="translate(215.567 631.851)"/>
+      <g id="Ellipse_1" data-name="Ellipse 1" class="cls-2" transform="translate(279.507 632)">
+        <ellipse class="cls-3" cx="7.371" cy="15.444" rx="7.371" ry="15.444"/>
+        <ellipse class="cls-4" cx="7.371" cy="15.444" rx="6.871" ry="14.944"/>
+      </g>
+    </g>
+    <g id="Group_3" data-name="Group 3">
+      <path id="Path_1-2" data-name="Path 1" class="cls-2" d="M-1.27.5h103.2v43H-1.27S-5.539,30.948-5.539,20.2A50.961,50.961,0,0,1-1.27.5Z" transform="translate(215.567 632)"/>
+      <g id="Ellipse_1-2" data-name="Ellipse 1" class="cls-2" transform="translate(309 632)">
+        <ellipse class="cls-3" cx="10.5" cy="22" rx="10.5" ry="22"/>
+        <ellipse class="cls-4" cx="10.5" cy="22" rx="10" ry="21.5"/>
+      </g>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(345.169 -13.419) rotate(30)">
+      <path id="Path_1-3" data-name="Path 1" class="cls-2" d="M-1.76.5H89.608V38.569H-1.76s-3.779-11.113-3.779-20.63A45.117,45.117,0,0,1-1.76.5Z" transform="translate(215.567 631.943)"/>
+      <g id="Ellipse_1-3" data-name="Ellipse 1" class="cls-2" transform="translate(297.65 632)">
+        <ellipse class="cls-3" cx="9.296" cy="19.477" rx="9.296" ry="19.477"/>
+        <ellipse class="cls-4" cx="9.296" cy="19.477" rx="8.796" ry="18.977"/>
+      </g>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="matrix(0.454, -0.891, 0.891, 0.454, -421.071, 584.482)">
+      <path id="Path_1-4" data-name="Path 1" class="cls-2" d="M-2.542.5H69.907V30.686H-2.542s-3-8.812-3-16.358A35.775,35.775,0,0,1-2.542.5Z" transform="translate(215.567 631.851)"/>
+      <g id="Ellipse_1-4" data-name="Ellipse 1" class="cls-2" transform="translate(279.507 632)">
+        <ellipse class="cls-3" cx="7.371" cy="15.444" rx="7.371" ry="15.444"/>
+        <ellipse class="cls-4" cx="7.371" cy="15.444" rx="6.871" ry="14.944"/>
+      </g>
+    </g>
+  </g>
+</svg>

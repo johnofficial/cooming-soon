@@ -1,0 +1,128 @@
+/* HEADER */
+.site-header
+  width: 100%
+  height: 80px
+  background: white
+  border-bottom: 1px solid #95989A
+.site-nav
+  max-width: 1000px
+  margin: auto
+  display: flex
+  justify-content: space-between
+  img
+    height: 60px
+    margin-top: 10px
+  a
+    font-family: 'Zilla Slab', serif
+    color: #95989A
+    font-size: 18px
+    text-decoration: none
+    line-height: 80px
+    &:hover
+      color: #898B8D
+
+
+
+/* SITE */
+.welcome-section
+  width: 100%
+  overflow: hidden
+.w-s-wrap
+  max-width: 1000px
+  margin: auto
+  padding-top: 80px
+.welcome-logo
+  transition: .3s
+  width: 250px
+  display: block
+  margin: auto
+  animation: slide-up 1s ease 0s 1
+.c-soon
+  animation: slideInLeft 1s ease 0s 1
+  margin-top: 20px
+  font-family: 'Zilla Slab', serif
+  font-size: 36px
+  text-align: center
+  font-weight: 400
+  strong
+    color: #AF8751
+    font-size: 32px
+    font-weight: 400
+    font-family: 'Zilla Slab', serif
+.parallax-bgc
+  width: 100%
+  height: 100vh
+  position: absolute
+  overflow: hidden
+  top: 0
+  left: 0
+  z-index: -3
+  img
+    position: absolute
+    top: 0
+    left: 0
+    height: 120%
+    transition: .1s
+
+form
+  text-align: center
+  margin-top: 50px
+  input, button
+    transition: .3s
+    animation: slideInUp 1s ease 0s 1
+
+  input,
+  button
+    border: 1px solid #593B1A
+    padding: 20px
+    border-radius: 0
+    font-size: 18px
+    outline: none
+    margin: 0
+  button
+    background: #593B1A
+    color: white
+  input
+    width: 50%
+
+@media (max-width: 480px)
+  .w-s-wrap
+    padding-top: 40px
+  form
+    width: 100%
+    input
+      width: calc(100% - 40px)
+    button
+      float: right
+      margin-top: 10px
+
+
+
+
+@keyframes slide-up
+  0%
+    opacity: 0
+    transform: scale(0)
+  100%
+    opacity: 1
+    transform: scale(1)
+@keyframes slideInUp
+  0%
+    transform: translateY(100%)
+  100%
+    transform: translateY(0%)
+
+@keyframes slideInLeft
+  from
+    transform: translate3d(-100%, 0, 0)
+    opacity: 0
+  to
+    transform: translate3d(0, 0, 0)
+    opacity: 1
+
+@keyframes slideInRight
+  from
+    transform: translate3d(100%, 0, 0)
+    visibility: visible
+  to
+    transform: translate3d(0, 0, 0)
